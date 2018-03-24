@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@font-face {
+	src: url('../fonts/OpenSans-Regular.ttf');
+	font-family: OpenSans;
+}
+
+body {
+	font-family: OpenSans!important;
+}
+
+
+.slides {
+	width: 100px!important;
+}
+
+.theme-color {
+	color: #d9003e!important;
+}
+
+
+.radio-cont {
+	padding: 10px;
+}
+
+.cont {
+	width: 100%;
+	margin: 10px 0;
+}
+.section-padding {
+	padding: 80px 0;
+}
+
+.navi ul{
+	margin: 0;
+}
+
+.mybtn {
+	font-weight: 600;
+	text-transform: uppercase;
+	background-color: #d9003e!important;
+	border-color: #d9003e!important;
+	color: #fff;
+}
+.mybtn:hover {
+	background-color: #000;
+}
+
+
+.btn-primary {
+	color: #fff!important;
+	background-color: #d9003e;
+	border-color: #d9003e ;
+}
+
+main {
+	padding: 10px;
+}
+
+#logo-img {
+	height: 40px;
+	margin-top: 7px;
+}
+
+ul.nav a:hover { color: #000 !important; }
+
+.main-nav {
+	padding: 0!important;
+	height: 10px!important;
+}
+
+.main-nav ul {
+	margin-top: 60px;
+}
+.main-nav ul li a {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+.navbar-custom {
+	background-color: #3c4046; 
+}
+
+.no-radius {
+	border-radius: 0!important;
+}
+
+footer section {
+	/*border: 1px solid black;*/
+}
+footer {
+	background: #333;
+	color: #999;
+	padding: 30px;
+}
+
+footer h4 {
+	color: #eee;
+}
+
+.nncont {
+	background-image: url('../img/plane.jpg');
+	background-size: 100%;
+}
+
+.navbar-brand {
+	color:  #d9003e!important;
+	padding: 0!important;
+}
+
+.navbar-brand {
+
+}
+
+#tagline {
+	color: #eee;
+	font-size: 16px;
+	text-indent: 20px;
+}
+
+#loginbtn {
+	background-color: #6666ff;
+}
+
+#loginmodal {
+	vertical-align: middle;
+}
+.pointer {
+	cursor: pointer;
+}
+
+
+#profile {
+	margin-top: 40px;
+}
+
+
+.float-right {
+	float: right;
+}
+
+
+
+.no-display {
+	display: none!important;
+}
+
+.top-margin {
+	margin-top: 20px!important;
+}
+
+.a-container {
+	margin-top: 120px;
+}
+
+.cargo-container {
+	padding-top: 30px;
+}
+
+.social-links li {
+	display: inline-block;
+}
+.social-links li a{
+	color: #fff;
+    font-size: 26px;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.footer .social-links li {
+    display: inline-block;
+    margin: 0 25px 25px;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+#login-acc {
+	display: none;
+}
+
+.sidebar {
+	height: 400px;
+	background-color: #999;
+}
+
+@media (min-width: 451px) and (max-width: 768px) {
+	.logo-img {
+		margin-left: 10px;
+	}
+
+
+}
+
